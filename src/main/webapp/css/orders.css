@@ -1,0 +1,28 @@
+.order-list-container {
+	width: 70%;
+}
+
+.order-info-container {
+	margin: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.order-item-data {
+	padding: 0.5rem;
+}
+
+.order-item-data * {
+	margin-bottom: 1rem;
+}
+
+.product-unit-price, .item-subtotal {
+	font-size: 1.125rem;
+	color: #EB8242;
+}
+
+.order-subtotal-container, .product-qty-container {
+	margin: 0.5rem;
+	font-size: 1.125rem;
+}

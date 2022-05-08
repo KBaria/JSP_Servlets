@@ -1,0 +1,79 @@
+.info-container {
+	margin: 1rem;
+}
+
+.product-unit-price, .item-subtotal {
+	font-size: 1.125rem;
+	color: #EB8242;
+}
+
+.cart-subtotal-container, .product-qty-container {
+	margin: 0.5rem;
+	font-size: 1.125rem;
+}
+
+.product-qty-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-qty-container * {
+	margin-bottom: 0.5rem;
+}
+
+.increment-button, .decrement-button {
+	width: 70%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: none;
+}
+
+.increment-button  {
+	background-color: #8FBBAF;
+	transition: 250ms;
+}
+
+.increment-button:hover {
+	background-color: #ACDEAA;
+	cursor: pointer;
+}
+
+.decrement-button  {
+	background-color: #FF8AAE;
+	transition: 250ms;
+}
+
+.decrement-button:hover {
+	background-color: #FFB2A6;
+	cursor: pointer;
+}
+
+.input-field {
+	display: flex;
+	flex-direction: column;
+	margin: 0.5rem;
+}
+
+#checkout-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.checkout-button {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: none;
+	font-size: 1.05rem;
+}
+
+.checkout-button  {
+	background-color: #8FBBAF;
+	transition: 250ms;
+}
+
+.checkout-button:hover {
+	background-color: #ACDEAA;
+	cursor: pointer;
+}

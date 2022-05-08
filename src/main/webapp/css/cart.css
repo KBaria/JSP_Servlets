@@ -1,0 +1,28 @@
+.empty-cart {
+	margin: 2rem;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.empty-cart * {
+	color: #5D5B6A;
+	font-size: 4rem;
+}
+
+.non-empty-cart {
+	margin: 1rem;
+	padding: 1rem;
+	width: 70%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buy-cart-button, .update-cart-button {
+	width: 20%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: none;
+	font-size: 1.05rem;
+}
