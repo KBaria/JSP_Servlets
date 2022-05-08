@@ -1,6 +1,6 @@
 # JSP_Servlet_Ecommerce_WebApp
 
-## this is a simple ecommerce web application made with jsp, servlets, jdbc (MySQL) along with Javascript for DOM manipulation and making asynchronous requests to servlets and CSS to style pages
+### this is a simple ecommerce web application made with jsp, servlets, jdbc (MySQL) along with Javascript for DOM manipulation and making asynchronous requests to servlets and CSS to style pages
 
 ## It has features like :
 1. login -- using jdbc to query database for authentication.
