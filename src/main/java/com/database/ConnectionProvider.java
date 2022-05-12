@@ -8,7 +8,7 @@ public class ConnectionProvider {
 	public static Connection getConnection() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");  
-			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mini_mart", "root", "Starscream20@");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mini_mart", "username", "password");
 			return connection;
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
